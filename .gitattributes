@@ -1,0 +1,13 @@
+/.editorconfig export-ignore
+/.gitattributes export-ignore
+
+# Enforce checkout with linux lf consistent over all platforms
+*.html text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.svg text eol=lf
+*.txt text eol=lf
