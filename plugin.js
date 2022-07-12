@@ -11,7 +11,7 @@ CKEDITOR.plugins.add('markTag', {
   ],
   init: function (editor) {
 
-    const style = new CKEDITOR.style({ element: 'mark' })
+    var style = new CKEDITOR.style({ element: 'mark' })
 
     // Listen for contextual style activation
     editor.attachStyleStateChange(style, function (state) {
